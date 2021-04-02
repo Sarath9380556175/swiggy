@@ -262,7 +262,7 @@ this.setState({items:items, subTotal:total})
                 </div>
                 
                 <div className="heading">{restaurant.name}</div>
-                <button className="btn-order"  onClick={()=>this.handleclick('isonlineorderopen', true)}>Place Online Order</button>
+                <button className="btn-order"  onClick={()=>this.handleclick('isonlineorderopen', true)}>Place Order</button>
 
                 <div className="tabs">
                     <div className="tab">
